@@ -1,0 +1,36 @@
+Local setup instructions for RTX 4090 laptop (conda-based)
+
+1) Check GPU and VRAM:
+   Open PowerShell / Terminal and run:
+     nvidia-smi
+   Note the "Memory-Usage" and "Total" VRAM (e.g., 16160 MiB or 24576 MiB).
+
+2) Install Miniconda and create env (if not already):
+   wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh
+   bash miniconda.sh -b -p $HOME/miniconda
+   export PATH="$HOME/miniconda/bin:$PATH"
+   conda create -n meteora python=3.10 -y
+   conda activate meteora
+
+3) Install PyTorch (choose the CUDA version matching your driver, e.g., cu118):
+   pip install --upgrade pip setuptools wheel
+   pip install torch --extra-index-url https://download.pytorch.org/whl/cu118
+
+4) Install ML tooling:
+   pip install transformers accelerate datasets peft bitsandbytes safetensors sentence-transformers
+
+5) Optional: install trl and evaluate for RL/metrics
+   pip install trl evaluate
+
+6) Test small inference (Mistral-7B):
+   python -c "from transformers import AutoTokenizer, AutoModelForCausalLM; t=AutoTokenizer.from_pretrained('mistralai/mistral-7b-v0.1'); m=AutoModelForCausalLM.from_pretrained('mistralai/mistral-7b-v0.1', device_map='auto', torch_dtype='auto'); print('Loaded OK')"
+
+7) Run training scripts:
+   - Place rationales_sft.jsonl and verifier.jsonl in the working dir (/mnt/data).
+   - For SFT: accelerate launch --num_processes 1 train_mistral_qlora.py
+   - For verifier: python train_pubmed_verifier.py
+
+Notes & tips:
+- If you get out-of-memory errors, reduce gradient_accumulation_steps or switch to smaller model (e.g., Mistral-7B -> Llama-7B).
+- If bitsandbytes installation fails, install via conda or follow bitsandbytes install instructions for your CUDA version.
+- For faster experiments, reduce num_train_epochs and dataset size.

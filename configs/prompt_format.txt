@@ -1,0 +1,28 @@
+SFT prompt/response format (single 'text' field) - exact template:
+
+### Instruction:
+Given the user query below, generate {n} concise rationales (1–2 sentences each) describing what evidence a correct passage should contain.
+
+### Query:
+{QUERY}
+
+### Response:
+{RATIONALE_1}
+{RATIONALE_2}
+{RATIONALE_3}
+
+Python helper (use this when building dataset programmatically):
+
+def build_text_field(query: str, rationales: List[str]) -> str:
+    prompt = (
+        "### Instruction:\n"
+        "Given the user query below, generate {n} concise rationales (1–2 sentences each) describing what evidence a correct passage should contain.\n\n"
+        "### Query:\n{query}\n\n"
+        "### Response:\n{rationales}"
+    )
+    joined = "\n".join(rationales)
+    return prompt.format(n=len(rationales), query=query.strip(), rationales=joined)
+
+Tokenization note:
+- Test token lengths with your target tokenizer and set `max_length` in training (e.g., 1024).
+- If necessary, shorten rationales or truncate while preserving the beginning of the Response block.

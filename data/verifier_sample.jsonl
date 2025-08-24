@@ -1,0 +1,2 @@
+{"id": "v001", "rationale": "Look for elevated WBC and neutrophilia indicating bacterial infection.", "passage": "Lab: WBC 18,000; neutrophils 82%; patient febrile.", "label": 1}
+{"id": "v002", "rationale": "Look for CT pulmonary angiography positive for PE.", "passage": "Chest x-ray shows no consolidation; D-dimer normal.", "label": 0}

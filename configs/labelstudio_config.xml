@@ -1,0 +1,22 @@
+<View>
+  <Header value="Rationale Annotation Task"/>
+  <HTML>
+    <![CDATA[
+    <h3>Rationale Annotation Instructions</h3>
+    <p>Please read the query carefully and write <strong>3 concise rationales</strong> (1–2 sentences each) describing the specific evidence or phrases a passage should contain to support a correct answer. Use clinical, evidence-focused wording and avoid patient identifiers (PHI).</p>
+    <ul>
+      <li>Be concise (8–30 words each).</li>
+      <li>Use clinical terms (e.g., "elevated D-dimer", "focal consolidation").</li>
+      <li>If relevant, include lab, imaging, symptom, or risk-factor cues.</li>
+      <li>If you cannot produce 3 rationales, explain why in Rationale 3.</li>
+    </ul>
+    ]]>
+  </HTML>
+
+  <Text name="query" value="$text"/>
+
+  <TextArea name="rationale_1" label="Rationale 1 (most important)"/>
+  <TextArea name="rationale_2" label="Rationale 2"/>
+  <TextArea name="rationale_3" label="Rationale 3 (optional/expansion)"/>
+  <TextArea name="annotator_notes" label="Annotator notes (optional)"/>
+</View>
