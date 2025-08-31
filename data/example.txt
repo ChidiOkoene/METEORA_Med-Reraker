@@ -1,0 +1,77 @@
+{
+  "id": "q003",
+  "query": "What is the most likely cause of right upper quadrant pain, fever, and jaundice?",
+  "rationales": [
+    "Look for Charcot’s triad suggesting acute cholangitis.",
+    "Look for evidence of biliary obstruction and infection.",
+    "Look for elevated liver enzymes and leukocytosis consistent with cholangitis."
+  ],
+  "text": "### Instruction:\nGiven the user query below, generate 3 concise rationales (1–2 sentences each) describing what evidence a correct passage should contain.\n\n### Query:\nWhat is the most likely cause of right upper quadrant pain, fever, and jaundice?\n\n### Response:\nLook for Charcot’s triad suggesting acute cholangitis.\nLook for evidence of biliary obstruction and infection.\nLook for elevated liver enzymes and leukocytosis consistent with cholangitis."
+}
+
+{
+  "id": "q004",
+  "query": "How do you start managing a patient with diabetic ketoacidosis (DKA)?",
+  "rationales": [
+    "Look for recommendations to begin with airway, breathing, and circulation assessment.",
+    "Look for immediate fluid resuscitation with IV normal saline.",
+    "Look for initiation of insulin therapy and correction of electrolytes, especially potassium."
+  ],
+  "text": "### Instruction:\nGiven the user query below, generate 3 concise rationales (1–2 sentences each) describing what evidence a correct passage should contain.\n\n### Query:\nHow do you start managing a patient with diabetic ketoacidosis (DKA)?\n\n### Response:\nLook for recommendations to begin with airway, breathing, and circulation assessment.\nLook for immediate fluid resuscitation with IV normal saline.\nLook for initiation of insulin therapy and correction of electrolytes, especially potassium."
+}
+
+{
+  "id": "q005",
+  "query": "Which investigation is most appropriate to confirm pulmonary embolism?",
+  "rationales": [
+    "Look for reference to CT pulmonary angiography as the gold standard imaging test.",
+    "Look for mention of D-dimer testing as an initial screen in low-risk patients.",
+    "Look for use of V/Q scan in patients with contraindications to contrast."
+  ],
+  "text": "### Instruction:\nGiven the user query below, generate 3 concise rationales (1–2 sentences each) describing what evidence a correct passage should contain.\n\n### Query:\nWhich investigation is most appropriate to confirm pulmonary embolism?\n\n### Response:\nLook for reference to CT pulmonary angiography as the gold standard imaging test.\nLook for mention of D-dimer testing as an initial screen in low-risk patients.\nLook for use of V/Q scan in patients with contraindications to contrast."
+}
+
+{
+  "id": "q006",
+  "query": "Why does nephrotic syndrome cause generalized edema?",
+  "rationales": [
+    "Look for loss of albumin in urine leading to hypoalbuminemia.",
+    "Look for reduced plasma oncotic pressure resulting in fluid shift into interstitial tissues.",
+    "Look for compensatory activation of renin–angiotensin–aldosterone system worsening fluid retention."
+  ],
+  "text": "### Instruction:\nGiven the user query below, generate 3 concise rationales (1–2 sentences each) describing what evidence a correct passage should contain.\n\n### Query:\nWhy does nephrotic syndrome cause generalized edema?\n\n### Response:\nLook for loss of albumin in urine leading to hypoalbuminemia.\nLook for reduced plasma oncotic pressure resulting in fluid shift into interstitial tissues.\nLook for compensatory activation of renin–angiotensin–aldosterone system worsening fluid retention."
+}
+
+{
+  "id": "q007",
+  "query": "Identify the hallmark ECG finding in pericarditis.",
+  "rationales": [
+    "Look for diffuse ST-segment elevation across multiple leads.",
+    "Look for PR-segment depression in several leads.",
+    "Look for lack of reciprocal ST depression, distinguishing from myocardial infarction."
+  ],
+  "text": "### Instruction:\nGiven the user query below, generate 3 concise rationales (1–2 sentences each) describing what evidence a correct passage should contain.\n\n### Query:\nIdentify the hallmark ECG finding in pericarditis.\n\n### Response:\nLook for diffuse ST-segment elevation across multiple leads.\nLook for PR-segment depression in several leads.\nLook for lack of reciprocal ST depression, distinguishing from myocardial infarction."
+}
+
+{
+  "id": "q008",
+  "query": "List the common complications of chronic hypertension.",
+  "rationales": [
+    "Look for cardiovascular complications like left ventricular hypertrophy, CAD, and heart failure.",
+    "Look for cerebrovascular complications such as stroke and TIA.",
+    "Look for renal complications including chronic kidney disease and hypertensive nephrosclerosis."
+  ],
+  "text": "### Instruction:\nGiven the user query below, generate 3 concise rationales (1–2 sentences each) describing what evidence a correct passage should contain.\n\n### Query:\nList the common complications of chronic hypertension.\n\n### Response:\nLook for cardiovascular complications like left ventricular hypertrophy, CAD, and heart failure.\nLook for cerebrovascular complications such as stroke and TIA.\nLook for renal complications including chronic kidney disease and hypertensive nephrosclerosis."
+}
+
+
+{
+  "id": "q009",
+  "query": "When should thrombolytic therapy be given in acute ischemic stroke?",
+  "rationales": [
+    "Look for strict time window within 4.5 hours of symptom onset.",
+    "Look for absence of contraindications like active bleeding or recent surgery.",
+    "Look for requirement of brain imaging (CT) to rule out hemorrhage before administration."
+  ],
+  "text": "### Instruction:\nGiven the user query below, generate 3 concise rationales (1–2 sentences each) describing what evidence a correct passage should contain.\n\n### Query:\nWhen should thrombolytic therapy be given in acute ischemic stroke?\n\n### Response:\nLook for strict time window within 4.5 hours of symptom onset.\nLook for absence of contraindications like active bleeding or recent surgery.\nLook for requirement of brain imaging (CT) to rule out hemorrhage before administration."
+}

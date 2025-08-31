@@ -1,0 +1,9 @@
+{
+  "total_input": 19773,
+  "malformed": 1,
+  "clean_count": 16232,
+  "train_count": 11362,
+  "val_count": 3246,
+  "test_count": 1624,
+  "deduplicated": 3540
+}

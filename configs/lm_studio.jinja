@@ -1,0 +1,22 @@
+{# ---- Collect system text (optional) ---- #}
+{%- set sys_text = "" -%}
+{%- for m in messages -%}
+  {%- if m['role'] == 'system' -%}
+    {%- set sys_text = (sys_text + m['content'] + "\n") -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{# ---- Render user/assistant turns in Mistral [INST] format ---- #}
+{%- set started = false -%}
+{%- for m in messages if m['role'] in ['user', 'assistant'] -%}
+  {%- if m['role'] == 'user' -%}
+    {%- if not started -%}
+{{ bos_token }}[INST]{{ (sys_text and (" " ~ sys_text ~ "\n\n") or "") ~ m['content'] }}[/INST]
+      {%- set started = true -%}
+    {%- else -%}
+{{ eos_token }}{{ bos_token }}[INST]{{ " " ~ m['content'] }}[/INST]
+    {%- endif -%}
+  {%- elif m['role'] == 'assistant' -%}
+{{ " " ~ m['content'] }}
+  {%- endif -%}
+{%- endfor -%}

@@ -1,0 +1,1646 @@
+[
+  {
+    "id": 1,
+    "name": "Human Medicine",
+    "parent": null,
+    "path": "Human Medicine"
+  },
+  {
+    "id": 2,
+    "name": "Cardiology",
+    "parent": "Human Medicine",
+    "path": "Human Medicine / Cardiology"
+  },
+  {
+    "id": 3,
+    "name": "General",
+    "parent": "Cardiology",
+    "path": "Cardiology / General"
+  },
+  {
+    "id": 4,
+    "name": "Adult Cardiology",
+    "parent": "General",
+    "path": "General / Adult Cardiology"
+  },
+  {
+    "id": 5,
+    "name": "Preventive Cardiology",
+    "parent": "General",
+    "path": "General / Preventive Cardiology"
+  },
+  {
+    "id": 6,
+    "name": "Cardiac Rehabilitation",
+    "parent": "General",
+    "path": "General / Cardiac Rehabilitation"
+  },
+  {
+    "id": 7,
+    "name": "Subspecialties",
+    "parent": "Cardiology",
+    "path": "Cardiology / Subspecialties"
+  },
+  {
+    "id": 8,
+    "name": "Interventional Cardiology",
+    "parent": "Subspecialties",
+    "path": "Subspecialties / Interventional Cardiology"
+  },
+  {
+    "id": 9,
+    "name": "Electrophysiology (EP)",
+    "parent": "Subspecialties",
+    "path": "Subspecialties / Electrophysiology (EP)"
+  },
+  {
+    "id": 10,
+    "name": "Heart Failure & Transplant Cardiology",
+    "parent": "Subspecialties",
+    "path": "Subspecialties / Heart Failure & Transplant Cardiology"
+  },
+  {
+    "id": 11,
+    "name": "Cardiac Imaging (Echo/CT/MRI/Nuclear)",
+    "parent": "Subspecialties",
+    "path": "Subspecialties / Cardiac Imaging (Echo/CT/MRI/Nuclear)"
+  },
+  {
+    "id": 12,
+    "name": "Structural Heart (TAVR, MitraClip)",
+    "parent": "Subspecialties",
+    "path": "Subspecialties / Structural Heart (TAVR, MitraClip)"
+  },
+  {
+    "id": 13,
+    "name": "Pediatric Cardiology",
+    "parent": "Subspecialties",
+    "path": "Subspecialties / Pediatric Cardiology"
+  },
+  {
+    "id": 14,
+    "name": "Cardio-Oncology",
+    "parent": "Subspecialties",
+    "path": "Subspecialties / Cardio-Oncology"
+  },
+  {
+    "id": 15,
+    "name": "Adult Congenital Heart Disease",
+    "parent": "Subspecialties",
+    "path": "Subspecialties / Adult Congenital Heart Disease"
+  },
+  {
+    "id": 16,
+    "name": "Procedural",
+    "parent": "Cardiology",
+    "path": "Cardiology / Procedural"
+  },
+  {
+    "id": 17,
+    "name": "Coronary Angiography & PCI",
+    "parent": "Procedural",
+    "path": "Procedural / Coronary Angiography & PCI"
+  },
+  {
+    "id": 18,
+    "name": "Transcatheter Valve Therapies",
+    "parent": "Procedural",
+    "path": "Procedural / Transcatheter Valve Therapies"
+  },
+  {
+    "id": 19,
+    "name": "Ablation Procedures",
+    "parent": "Procedural",
+    "path": "Procedural / Ablation Procedures"
+  },
+  {
+    "id": 20,
+    "name": "Device Implantation (pacemakers/ICDs)",
+    "parent": "Procedural",
+    "path": "Procedural / Device Implantation (pacemakers/ICDs)"
+  },
+  {
+    "id": 21,
+    "name": "Oncology",
+    "parent": "Human Medicine",
+    "path": "Human Medicine / Oncology"
+  },
+  {
+    "id": 22,
+    "name": "Medical Oncology",
+    "parent": "Oncology",
+    "path": "Oncology / Medical Oncology"
+  },
+  {
+    "id": 23,
+    "name": "Solid Tumor Oncology",
+    "parent": "Medical Oncology",
+    "path": "Medical Oncology / Solid Tumor Oncology"
+  },
+  {
+    "id": 24,
+    "name": "Hematologic Malignancies (Leukemia, Lymphoma, Myeloma)",
+    "parent": "Medical Oncology",
+    "path": "Medical Oncology / Hematologic Malignancies (Leukemia, Lymphoma, Myeloma)"
+  },
+  {
+    "id": 25,
+    "name": "Immuno-oncology",
+    "parent": "Medical Oncology",
+    "path": "Medical Oncology / Immuno-oncology"
+  },
+  {
+    "id": 26,
+    "name": "Targeted Therapies / Molecular Oncology",
+    "parent": "Medical Oncology",
+    "path": "Medical Oncology / Targeted Therapies / Molecular Oncology"
+  },
+  {
+    "id": 27,
+    "name": "Palliative Oncology",
+    "parent": "Medical Oncology",
+    "path": "Medical Oncology / Palliative Oncology"
+  },
+  {
+    "id": 28,
+    "name": "Radiation Oncology",
+    "parent": "Oncology",
+    "path": "Oncology / Radiation Oncology"
+  },
+  {
+    "id": 29,
+    "name": "External Beam Radiation",
+    "parent": "Radiation Oncology",
+    "path": "Radiation Oncology / External Beam Radiation"
+  },
+  {
+    "id": 30,
+    "name": "Brachytherapy",
+    "parent": "Radiation Oncology",
+    "path": "Radiation Oncology / Brachytherapy"
+  },
+  {
+    "id": 31,
+    "name": "Stereotactic Radiosurgery (SRS/SBRT)",
+    "parent": "Radiation Oncology",
+    "path": "Radiation Oncology / Stereotactic Radiosurgery (SRS/SBRT)"
+  },
+  {
+    "id": 32,
+    "name": "Radiation Physics & Dosimetry",
+    "parent": "Radiation Oncology",
+    "path": "Radiation Oncology / Radiation Physics & Dosimetry"
+  },
+  {
+    "id": 33,
+    "name": "Surgical Oncology",
+    "parent": "Oncology",
+    "path": "Oncology / Surgical Oncology"
+  },
+  {
+    "id": 34,
+    "name": "Breast Surgical Oncology",
+    "parent": "Surgical Oncology",
+    "path": "Surgical Oncology / Breast Surgical Oncology"
+  },
+  {
+    "id": 35,
+    "name": "Hepatobiliary Surgical Oncology",
+    "parent": "Surgical Oncology",
+    "path": "Surgical Oncology / Hepatobiliary Surgical Oncology"
+  },
+  {
+    "id": 36,
+    "name": "Colorectal Surgical Oncology",
+    "parent": "Surgical Oncology",
+    "path": "Surgical Oncology / Colorectal Surgical Oncology"
+  },
+  {
+    "id": 37,
+    "name": "Thoracic Surgical Oncology",
+    "parent": "Surgical Oncology",
+    "path": "Surgical Oncology / Thoracic Surgical Oncology"
+  },
+  {
+    "id": 38,
+    "name": "Supportive & Subspecialists",
+    "parent": "Oncology",
+    "path": "Oncology / Supportive & Subspecialists"
+  },
+  {
+    "id": 39,
+    "name": "Oncology Nursing",
+    "parent": "Supportive & Subspecialists",
+    "path": "Supportive & Subspecialists / Oncology Nursing"
+  },
+  {
+    "id": 40,
+    "name": "Clinical Trials & Translational Oncology",
+    "parent": "Supportive & Subspecialists",
+    "path": "Supportive & Subspecialists / Clinical Trials & Translational Oncology"
+  },
+  {
+    "id": 41,
+    "name": "Pediatric Oncology",
+    "parent": "Supportive & Subspecialists",
+    "path": "Supportive & Subspecialists / Pediatric Oncology"
+  },
+  {
+    "id": 42,
+    "name": "Oncologic Imaging (PET/CT)",
+    "parent": "Supportive & Subspecialists",
+    "path": "Supportive & Subspecialists / Oncologic Imaging (PET/CT)"
+  },
+  {
+    "id": 43,
+    "name": "Neurology",
+    "parent": "Human Medicine",
+    "path": "Human Medicine / Neurology"
+  },
+  {
+    "id": 44,
+    "name": "General",
+    "parent": "Neurology",
+    "path": "Neurology / General"
+  },
+  {
+    "id": 45,
+    "name": "Adult Neurology",
+    "parent": "General",
+    "path": "General / Adult Neurology"
+  },
+  {
+    "id": 46,
+    "name": "Neurological Examination & Outpatient Care",
+    "parent": "General",
+    "path": "General / Neurological Examination & Outpatient Care"
+  },
+  {
+    "id": 47,
+    "name": "Subspecialties",
+    "parent": "Neurology",
+    "path": "Neurology / Subspecialties"
+  },
+  {
+    "id": 48,
+    "name": "Stroke & Cerebrovascular Neurology",
+    "parent": "Subspecialties",
+    "path": "Subspecialties / Stroke & Cerebrovascular Neurology"
+  },
+  {
+    "id": 49,
+    "name": "Epilepsy & Clinical Neurophysiology (EEG)",
+    "parent": "Subspecialties",
+    "path": "Subspecialties / Epilepsy & Clinical Neurophysiology (EEG)"
+  },
+  {
+    "id": 50,
+    "name": "Movement Disorders (Parkinson's, Dystonia)",
+    "parent": "Subspecialties",
+    "path": "Subspecialties / Movement Disorders (Parkinson's, Dystonia)"
+  },
+  {
+    "id": 51,
+    "name": "Neuromuscular Medicine (MG, ALS)",
+    "parent": "Subspecialties",
+    "path": "Subspecialties / Neuromuscular Medicine (MG, ALS)"
+  },
+  {
+    "id": 52,
+    "name": "Neuroimmunology (MS, NMOSD)",
+    "parent": "Subspecialties",
+    "path": "Subspecialties / Neuroimmunology (MS, NMOSD)"
+  },
+  {
+    "id": 53,
+    "name": "Neuro-oncology",
+    "parent": "Subspecialties",
+    "path": "Subspecialties / Neuro-oncology"
+  },
+  {
+    "id": 54,
+    "name": "Neurocritical Care",
+    "parent": "Subspecialties",
+    "path": "Subspecialties / Neurocritical Care"
+  },
+  {
+    "id": 55,
+    "name": "Pediatric Neurology",
+    "parent": "Subspecialties",
+    "path": "Subspecialties / Pediatric Neurology"
+  },
+  {
+    "id": 56,
+    "name": "Behavioral Neurology / Cognitive Disorders",
+    "parent": "Subspecialties",
+    "path": "Subspecialties / Behavioral Neurology / Cognitive Disorders"
+  },
+  {
+    "id": 57,
+    "name": "Procedures",
+    "parent": "Neurology",
+    "path": "Neurology / Procedures"
+  },
+  {
+    "id": 58,
+    "name": "Electroencephalography (EEG)",
+    "parent": "Procedures",
+    "path": "Procedures / Electroencephalography (EEG)"
+  },
+  {
+    "id": 59,
+    "name": "Electromyography (EMG/NCS)",
+    "parent": "Procedures",
+    "path": "Procedures / Electromyography (EMG/NCS)"
+  },
+  {
+    "id": 60,
+    "name": "Invasive monitoring / intracranial procedures (in collaboration with neurosurgery)",
+    "parent": "Procedures",
+    "path": "Procedures / Invasive monitoring / intracranial procedures (in collaboration with neurosurgery)"
+  },
+  {
+    "id": 61,
+    "name": "Gastroenterology & Hepatology",
+    "parent": "Human Medicine",
+    "path": "Human Medicine / Gastroenterology & Hepatology"
+  },
+  {
+    "id": 62,
+    "name": "General",
+    "parent": "Gastroenterology & Hepatology",
+    "path": "Gastroenterology & Hepatology / General"
+  },
+  {
+    "id": 63,
+    "name": "Clinical Gastroenterology",
+    "parent": "General",
+    "path": "General / Clinical Gastroenterology"
+  },
+  {
+    "id": 64,
+    "name": "Hepatology (Liver diseases)",
+    "parent": "General",
+    "path": "General / Hepatology (Liver diseases)"
+  },
+  {
+    "id": 65,
+    "name": "Subspecialties",
+    "parent": "Gastroenterology & Hepatology",
+    "path": "Gastroenterology & Hepatology / Subspecialties"
+  },
+  {
+    "id": 66,
+    "name": "Inflammatory Bowel Disease (IBD)",
+    "parent": "Subspecialties",
+    "path": "Subspecialties / Inflammatory Bowel Disease (IBD)"
+  },
+  {
+    "id": 67,
+    "name": "Pancreatology",
+    "parent": "Subspecialties",
+    "path": "Subspecialties / Pancreatology"
+  },
+  {
+    "id": 68,
+    "name": "Advanced Endoscopy (ERCP, EUS)",
+    "parent": "Subspecialties",
+    "path": "Subspecialties / Advanced Endoscopy (ERCP, EUS)"
+  },
+  {
+    "id": 69,
+    "name": "Transplant Hepatology",
+    "parent": "Subspecialties",
+    "path": "Subspecialties / Transplant Hepatology"
+  },
+  {
+    "id": 70,
+    "name": "GI Motility Disorders",
+    "parent": "Subspecialties",
+    "path": "Subspecialties / GI Motility Disorders"
+  },
+  {
+    "id": 71,
+    "name": "Neurogastroenterology",
+    "parent": "Subspecialties",
+    "path": "Subspecialties / Neurogastroenterology"
+  },
+  {
+    "id": 72,
+    "name": "Procedures",
+    "parent": "Gastroenterology & Hepatology",
+    "path": "Gastroenterology & Hepatology / Procedures"
+  },
+  {
+    "id": 73,
+    "name": "Upper Endoscopy (EGD)",
+    "parent": "Procedures",
+    "path": "Procedures / Upper Endoscopy (EGD)"
+  },
+  {
+    "id": 74,
+    "name": "Colonoscopy & Polypectomy",
+    "parent": "Procedures",
+    "path": "Procedures / Colonoscopy & Polypectomy"
+  },
+  {
+    "id": 75,
+    "name": "ERCP (Endoscopic Retrograde Cholangiopancreatography)",
+    "parent": "Procedures",
+    "path": "Procedures / ERCP (Endoscopic Retrograde Cholangiopancreatography)"
+  },
+  {
+    "id": 76,
+    "name": "EUS (Endoscopic Ultrasound)",
+    "parent": "Procedures",
+    "path": "Procedures / EUS (Endoscopic Ultrasound)"
+  },
+  {
+    "id": 77,
+    "name": "Pulmonology & Critical Care",
+    "parent": "Human Medicine",
+    "path": "Human Medicine / Pulmonology & Critical Care"
+  },
+  {
+    "id": 78,
+    "name": "General",
+    "parent": "Pulmonology & Critical Care",
+    "path": "Pulmonology & Critical Care / General"
+  },
+  {
+    "id": 79,
+    "name": "Clinical Pulmonology",
+    "parent": "General",
+    "path": "General / Clinical Pulmonology"
+  },
+  {
+    "id": 80,
+    "name": "Sleep Medicine",
+    "parent": "General",
+    "path": "General / Sleep Medicine"
+  },
+  {
+    "id": 81,
+    "name": "Subspecialties",
+    "parent": "Pulmonology & Critical Care",
+    "path": "Pulmonology & Critical Care / Subspecialties"
+  },
+  {
+    "id": 82,
+    "name": "Interventional Pulmonology",
+    "parent": "Subspecialties",
+    "path": "Subspecialties / Interventional Pulmonology"
+  },
+  {
+    "id": 83,
+    "name": "Pulmonary Hypertension",
+    "parent": "Subspecialties",
+    "path": "Subspecialties / Pulmonary Hypertension"
+  },
+  {
+    "id": 84,
+    "name": "Cystic Fibrosis Care",
+    "parent": "Subspecialties",
+    "path": "Subspecialties / Cystic Fibrosis Care"
+  },
+  {
+    "id": 85,
+    "name": "Occupational Lung Disease",
+    "parent": "Subspecialties",
+    "path": "Subspecialties / Occupational Lung Disease"
+  },
+  {
+    "id": 86,
+    "name": "Bronchiectasis",
+    "parent": "Subspecialties",
+    "path": "Subspecialties / Bronchiectasis"
+  },
+  {
+    "id": 87,
+    "name": "Critical Care",
+    "parent": "Pulmonology & Critical Care",
+    "path": "Pulmonology & Critical Care / Critical Care"
+  },
+  {
+    "id": 88,
+    "name": "Medical Intensive Care Unit (MICU)",
+    "parent": "Critical Care",
+    "path": "Critical Care / Medical Intensive Care Unit (MICU)"
+  },
+  {
+    "id": 89,
+    "name": "Pulmonary Critical Care (ARDS, ECMO)",
+    "parent": "Critical Care",
+    "path": "Critical Care / Pulmonary Critical Care (ARDS, ECMO)"
+  },
+  {
+    "id": 90,
+    "name": "Respiratory Failure & Mechanical Ventilation",
+    "parent": "Critical Care",
+    "path": "Critical Care / Respiratory Failure & Mechanical Ventilation"
+  },
+  {
+    "id": 91,
+    "name": "Procedures",
+    "parent": "Pulmonology & Critical Care",
+    "path": "Pulmonology & Critical Care / Procedures"
+  },
+  {
+    "id": 92,
+    "name": "Bronchoscopy",
+    "parent": "Procedures",
+    "path": "Procedures / Bronchoscopy"
+  },
+  {
+    "id": 93,
+    "name": "Thoracoscopy (VATS collaborations)",
+    "parent": "Procedures",
+    "path": "Procedures / Thoracoscopy (VATS collaborations)"
+  },
+  {
+    "id": 94,
+    "name": "Surgery",
+    "parent": "Human Medicine",
+    "path": "Human Medicine / Surgery"
+  },
+  {
+    "id": 95,
+    "name": "General & Trauma",
+    "parent": "Surgery",
+    "path": "Surgery / General & Trauma"
+  },
+  {
+    "id": 96,
+    "name": "Acute Care Surgery",
+    "parent": "General & Trauma",
+    "path": "General & Trauma / Acute Care Surgery"
+  },
+  {
+    "id": 97,
+    "name": "Trauma Surgery",
+    "parent": "General & Trauma",
+    "path": "General & Trauma / Trauma Surgery"
+  },
+  {
+    "id": 98,
+    "name": "Emergency General Surgery",
+    "parent": "General & Trauma",
+    "path": "General & Trauma / Emergency General Surgery"
+  },
+  {
+    "id": 99,
+    "name": "Orthopedics",
+    "parent": "Surgery",
+    "path": "Surgery / Orthopedics"
+  },
+  {
+    "id": 100,
+    "name": "Joint Replacement (Arthroplasty)",
+    "parent": "Orthopedics",
+    "path": "Orthopedics / Joint Replacement (Arthroplasty)"
+  },
+  {
+    "id": 101,
+    "name": "Sports Medicine & Arthroscopy",
+    "parent": "Orthopedics",
+    "path": "Orthopedics / Sports Medicine & Arthroscopy"
+  },
+  {
+    "id": 102,
+    "name": "Spine Surgery (orthopedic spine)",
+    "parent": "Orthopedics",
+    "path": "Orthopedics / Spine Surgery (orthopedic spine)"
+  },
+  {
+    "id": 103,
+    "name": "Pediatric Orthopedics",
+    "parent": "Orthopedics",
+    "path": "Orthopedics / Pediatric Orthopedics"
+  },
+  {
+    "id": 104,
+    "name": "Neurosurgery",
+    "parent": "Surgery",
+    "path": "Surgery / Neurosurgery"
+  },
+  {
+    "id": 105,
+    "name": "Vascular Neurosurgery (aneurysm/clipping/flow diversion)",
+    "parent": "Neurosurgery",
+    "path": "Neurosurgery / Vascular Neurosurgery (aneurysm/clipping/flow diversion)"
+  },
+  {
+    "id": 106,
+    "name": "Spine & Spinal Cord Surgery",
+    "parent": "Neurosurgery",
+    "path": "Neurosurgery / Spine & Spinal Cord Surgery"
+  },
+  {
+    "id": 107,
+    "name": "Functional Neurosurgery (DBS)",
+    "parent": "Neurosurgery",
+    "path": "Neurosurgery / Functional Neurosurgery (DBS)"
+  },
+  {
+    "id": 108,
+    "name": "Skull Base Surgery",
+    "parent": "Neurosurgery",
+    "path": "Neurosurgery / Skull Base Surgery"
+  },
+  {
+    "id": 109,
+    "name": "Cardiothoracic",
+    "parent": "Surgery",
+    "path": "Surgery / Cardiothoracic"
+  },
+  {
+    "id": 110,
+    "name": "Adult Cardiac Surgery (CABG, valve surgery)",
+    "parent": "Cardiothoracic",
+    "path": "Cardiothoracic / Adult Cardiac Surgery (CABG, valve surgery)"
+  },
+  {
+    "id": 111,
+    "name": "Thoracic Surgery (lung/mediastinum)",
+    "parent": "Cardiothoracic",
+    "path": "Cardiothoracic / Thoracic Surgery (lung/mediastinum)"
+  },
+  {
+    "id": 112,
+    "name": "Congenital Cardiac Surgery",
+    "parent": "Cardiothoracic",
+    "path": "Cardiothoracic / Congenital Cardiac Surgery"
+  },
+  {
+    "id": 113,
+    "name": "Plastic & Reconstructive",
+    "parent": "Surgery",
+    "path": "Surgery / Plastic & Reconstructive"
+  },
+  {
+    "id": 114,
+    "name": "Microsurgery",
+    "parent": "Plastic & Reconstructive",
+    "path": "Plastic & Reconstructive / Microsurgery"
+  },
+  {
+    "id": 115,
+    "name": "Craniofacial Surgery",
+    "parent": "Plastic & Reconstructive",
+    "path": "Plastic & Reconstructive / Craniofacial Surgery"
+  },
+  {
+    "id": 116,
+    "name": "Burn Reconstruction",
+    "parent": "Plastic & Reconstructive",
+    "path": "Plastic & Reconstructive / Burn Reconstruction"
+  },
+  {
+    "id": 117,
+    "name": "Breast Reconstruction",
+    "parent": "Plastic & Reconstructive",
+    "path": "Plastic & Reconstructive / Breast Reconstruction"
+  },
+  {
+    "id": 118,
+    "name": "Minimally Invasive & Endoscopic",
+    "parent": "Surgery",
+    "path": "Surgery / Minimally Invasive & Endoscopic"
+  },
+  {
+    "id": 119,
+    "name": "Laparoscopic Surgery",
+    "parent": "Minimally Invasive & Endoscopic",
+    "path": "Minimally Invasive & Endoscopic / Laparoscopic Surgery"
+  },
+  {
+    "id": 120,
+    "name": "Robotic Surgery",
+    "parent": "Minimally Invasive & Endoscopic",
+    "path": "Minimally Invasive & Endoscopic / Robotic Surgery"
+  },
+  {
+    "id": 121,
+    "name": "Endoscopic & Hybrid Procedures",
+    "parent": "Minimally Invasive & Endoscopic",
+    "path": "Minimally Invasive & Endoscopic / Endoscopic & Hybrid Procedures"
+  },
+  {
+    "id": 122,
+    "name": "Radiology & Imaging",
+    "parent": "Human Medicine",
+    "path": "Human Medicine / Radiology & Imaging"
+  },
+  {
+    "id": 123,
+    "name": "Diagnostic Radiology",
+    "parent": "Radiology & Imaging",
+    "path": "Radiology & Imaging / Diagnostic Radiology"
+  },
+  {
+    "id": 124,
+    "name": "Neuroradiology",
+    "parent": "Diagnostic Radiology",
+    "path": "Diagnostic Radiology / Neuroradiology"
+  },
+  {
+    "id": 125,
+    "name": "Musculoskeletal Radiology",
+    "parent": "Diagnostic Radiology",
+    "path": "Diagnostic Radiology / Musculoskeletal Radiology"
+  },
+  {
+    "id": 126,
+    "name": "Thoracic Imaging",
+    "parent": "Diagnostic Radiology",
+    "path": "Diagnostic Radiology / Thoracic Imaging"
+  },
+  {
+    "id": 127,
+    "name": "Abdominal Imaging",
+    "parent": "Diagnostic Radiology",
+    "path": "Diagnostic Radiology / Abdominal Imaging"
+  },
+  {
+    "id": 128,
+    "name": "Breast Imaging (Mammography, DBT)",
+    "parent": "Diagnostic Radiology",
+    "path": "Diagnostic Radiology / Breast Imaging (Mammography, DBT)"
+  },
+  {
+    "id": 129,
+    "name": "Pediatric Radiology",
+    "parent": "Diagnostic Radiology",
+    "path": "Diagnostic Radiology / Pediatric Radiology"
+  },
+  {
+    "id": 130,
+    "name": "Interventional Radiology",
+    "parent": "Radiology & Imaging",
+    "path": "Radiology & Imaging / Interventional Radiology"
+  },
+  {
+    "id": 131,
+    "name": "Vascular Interventions (angioplasty, stent)",
+    "parent": "Interventional Radiology",
+    "path": "Interventional Radiology / Vascular Interventions (angioplasty, stent)"
+  },
+  {
+    "id": 132,
+    "name": "Oncologic Interventions (embolization, ablation)",
+    "parent": "Interventional Radiology",
+    "path": "Interventional Radiology / Oncologic Interventions (embolization, ablation)"
+  },
+  {
+    "id": 133,
+    "name": "Nonvascular Interventions (drainage, biopsies)",
+    "parent": "Interventional Radiology",
+    "path": "Interventional Radiology / Nonvascular Interventions (drainage, biopsies)"
+  },
+  {
+    "id": 134,
+    "name": "Nuclear Medicine & Molecular Imaging",
+    "parent": "Radiology & Imaging",
+    "path": "Radiology & Imaging / Nuclear Medicine & Molecular Imaging"
+  },
+  {
+    "id": 135,
+    "name": "PET/CT Imaging",
+    "parent": "Nuclear Medicine & Molecular Imaging",
+    "path": "Nuclear Medicine & Molecular Imaging / PET/CT Imaging"
+  },
+  {
+    "id": 136,
+    "name": "SPECT",
+    "parent": "Nuclear Medicine & Molecular Imaging",
+    "path": "Nuclear Medicine & Molecular Imaging / SPECT"
+  },
+  {
+    "id": 137,
+    "name": "Theranostics (radio-ligand therapy)",
+    "parent": "Nuclear Medicine & Molecular Imaging",
+    "path": "Nuclear Medicine & Molecular Imaging / Theranostics (radio-ligand therapy)"
+  },
+  {
+    "id": 138,
+    "name": "Pediatrics",
+    "parent": "Human Medicine",
+    "path": "Human Medicine / Pediatrics"
+  },
+  {
+    "id": 139,
+    "name": "General Pediatrics",
+    "parent": "Pediatrics",
+    "path": "Pediatrics / General Pediatrics"
+  },
+  {
+    "id": 140,
+    "name": "Primary Pediatric Care",
+    "parent": "General Pediatrics",
+    "path": "General Pediatrics / Primary Pediatric Care"
+  },
+  {
+    "id": 141,
+    "name": "Developmental & Behavioral Pediatrics",
+    "parent": "General Pediatrics",
+    "path": "General Pediatrics / Developmental & Behavioral Pediatrics"
+  },
+  {
+    "id": 142,
+    "name": "Subspecialties",
+    "parent": "Pediatrics",
+    "path": "Pediatrics / Subspecialties"
+  },
+  {
+    "id": 143,
+    "name": "Neonatology (NICU)",
+    "parent": "Subspecialties",
+    "path": "Subspecialties / Neonatology (NICU)"
+  },
+  {
+    "id": 144,
+    "name": "Pediatric Cardiology",
+    "parent": "Subspecialties",
+    "path": "Subspecialties / Pediatric Cardiology"
+  },
+  {
+    "id": 145,
+    "name": "Pediatric Critical Care",
+    "parent": "Subspecialties",
+    "path": "Subspecialties / Pediatric Critical Care"
+  },
+  {
+    "id": 146,
+    "name": "Pediatric Oncology",
+    "parent": "Subspecialties",
+    "path": "Subspecialties / Pediatric Oncology"
+  },
+  {
+    "id": 147,
+    "name": "Pediatric Endocrinology",
+    "parent": "Subspecialties",
+    "path": "Subspecialties / Pediatric Endocrinology"
+  },
+  {
+    "id": 148,
+    "name": "Pediatric Gastroenterology",
+    "parent": "Subspecialties",
+    "path": "Subspecialties / Pediatric Gastroenterology"
+  },
+  {
+    "id": 149,
+    "name": "Emergency Medicine & Prehospital",
+    "parent": "Human Medicine",
+    "path": "Human Medicine / Emergency Medicine & Prehospital"
+  },
+  {
+    "id": 150,
+    "name": "Emergency Medicine",
+    "parent": "Emergency Medicine & Prehospital",
+    "path": "Emergency Medicine & Prehospital / Emergency Medicine"
+  },
+  {
+    "id": 151,
+    "name": "Adult Emergency Medicine",
+    "parent": "Emergency Medicine",
+    "path": "Emergency Medicine / Adult Emergency Medicine"
+  },
+  {
+    "id": 152,
+    "name": "Pediatric Emergency Medicine",
+    "parent": "Emergency Medicine",
+    "path": "Emergency Medicine / Pediatric Emergency Medicine"
+  },
+  {
+    "id": 153,
+    "name": "Toxicology",
+    "parent": "Emergency Medicine",
+    "path": "Emergency Medicine / Toxicology"
+  },
+  {
+    "id": 154,
+    "name": "Disaster Medicine & Mass Casualty",
+    "parent": "Emergency Medicine",
+    "path": "Emergency Medicine / Disaster Medicine & Mass Casualty"
+  },
+  {
+    "id": 155,
+    "name": "Emergency Ultrasound (point-of-care)",
+    "parent": "Emergency Medicine",
+    "path": "Emergency Medicine / Emergency Ultrasound (point-of-care)"
+  },
+  {
+    "id": 156,
+    "name": "Prehospital & EMS",
+    "parent": "Emergency Medicine & Prehospital",
+    "path": "Emergency Medicine & Prehospital / Prehospital & EMS"
+  },
+  {
+    "id": 157,
+    "name": "Paramedic Systems",
+    "parent": "Prehospital & EMS",
+    "path": "Prehospital & EMS / Paramedic Systems"
+  },
+  {
+    "id": 158,
+    "name": "Air Medical Services",
+    "parent": "Prehospital & EMS",
+    "path": "Prehospital & EMS / Air Medical Services"
+  },
+  {
+    "id": 159,
+    "name": "Prehospital Triage & Protocols",
+    "parent": "Prehospital & EMS",
+    "path": "Prehospital & EMS / Prehospital Triage & Protocols"
+  },
+  {
+    "id": 160,
+    "name": "Psychiatry",
+    "parent": "Human Medicine",
+    "path": "Human Medicine / Psychiatry"
+  },
+  {
+    "id": 161,
+    "name": "General Psychiatry",
+    "parent": "Psychiatry",
+    "path": "Psychiatry / General Psychiatry"
+  },
+  {
+    "id": 162,
+    "name": "Adult Psychiatry",
+    "parent": "General Psychiatry",
+    "path": "General Psychiatry / Adult Psychiatry"
+  },
+  {
+    "id": 163,
+    "name": "Child & Adolescent Psychiatry",
+    "parent": "General Psychiatry",
+    "path": "General Psychiatry / Child & Adolescent Psychiatry"
+  },
+  {
+    "id": 164,
+    "name": "Geriatric Psychiatry",
+    "parent": "General Psychiatry",
+    "path": "General Psychiatry / Geriatric Psychiatry"
+  },
+  {
+    "id": 165,
+    "name": "Subspecialties",
+    "parent": "Psychiatry",
+    "path": "Psychiatry / Subspecialties"
+  },
+  {
+    "id": 166,
+    "name": "Forensic Psychiatry",
+    "parent": "Subspecialties",
+    "path": "Subspecialties / Forensic Psychiatry"
+  },
+  {
+    "id": 167,
+    "name": "Addiction Psychiatry",
+    "parent": "Subspecialties",
+    "path": "Subspecialties / Addiction Psychiatry"
+  },
+  {
+    "id": 168,
+    "name": "Consultation-Liaison Psychiatry",
+    "parent": "Subspecialties",
+    "path": "Subspecialties / Consultation-Liaison Psychiatry"
+  },
+  {
+    "id": 169,
+    "name": "Psychosomatic Medicine",
+    "parent": "Subspecialties",
+    "path": "Subspecialties / Psychosomatic Medicine"
+  },
+  {
+    "id": 170,
+    "name": "Community & Public Mental Health",
+    "parent": "Subspecialties",
+    "path": "Subspecialties / Community & Public Mental Health"
+  },
+  {
+    "id": 171,
+    "name": "Therapies",
+    "parent": "Psychiatry",
+    "path": "Psychiatry / Therapies"
+  },
+  {
+    "id": 172,
+    "name": "Psychopharmacology",
+    "parent": "Therapies",
+    "path": "Therapies / Psychopharmacology"
+  },
+  {
+    "id": 173,
+    "name": "Psychotherapy (CBT, DBT, psychodynamic)",
+    "parent": "Therapies",
+    "path": "Therapies / Psychotherapy (CBT, DBT, psychodynamic)"
+  },
+  {
+    "id": 174,
+    "name": "Neuromodulation (ECT, TMS)",
+    "parent": "Therapies",
+    "path": "Therapies / Neuromodulation (ECT, TMS)"
+  },
+  {
+    "id": 175,
+    "name": "Nephrology",
+    "parent": "Human Medicine",
+    "path": "Human Medicine / Nephrology"
+  },
+  {
+    "id": 176,
+    "name": "Clinical",
+    "parent": "Nephrology",
+    "path": "Nephrology / Clinical"
+  },
+  {
+    "id": 177,
+    "name": "General Nephrology",
+    "parent": "Clinical",
+    "path": "Clinical / General Nephrology"
+  },
+  {
+    "id": 178,
+    "name": "Glomerular Disease / Nephrotic Syndrome",
+    "parent": "Clinical",
+    "path": "Clinical / Glomerular Disease / Nephrotic Syndrome"
+  },
+  {
+    "id": 179,
+    "name": "Electrolyte Disorders",
+    "parent": "Clinical",
+    "path": "Clinical / Electrolyte Disorders"
+  },
+  {
+    "id": 180,
+    "name": "Renal Replacement",
+    "parent": "Nephrology",
+    "path": "Nephrology / Renal Replacement"
+  },
+  {
+    "id": 181,
+    "name": "Hemodialysis",
+    "parent": "Renal Replacement",
+    "path": "Renal Replacement / Hemodialysis"
+  },
+  {
+    "id": 182,
+    "name": "Peritoneal Dialysis",
+    "parent": "Renal Replacement",
+    "path": "Renal Replacement / Peritoneal Dialysis"
+  },
+  {
+    "id": 183,
+    "name": "Home Dialysis Modalities",
+    "parent": "Renal Replacement",
+    "path": "Renal Replacement / Home Dialysis Modalities"
+  },
+  {
+    "id": 184,
+    "name": "Transplantation",
+    "parent": "Nephrology",
+    "path": "Nephrology / Transplantation"
+  },
+  {
+    "id": 185,
+    "name": "Kidney Transplant Nephrology",
+    "parent": "Transplantation",
+    "path": "Transplantation / Kidney Transplant Nephrology"
+  },
+  {
+    "id": 186,
+    "name": "Transplant Immunology & Rejection Management",
+    "parent": "Transplantation",
+    "path": "Transplantation / Transplant Immunology & Rejection Management"
+  },
+  {
+    "id": 187,
+    "name": "Endocrinology & Metabolism",
+    "parent": "Human Medicine",
+    "path": "Human Medicine / Endocrinology & Metabolism"
+  },
+  {
+    "id": 188,
+    "name": "General",
+    "parent": "Endocrinology & Metabolism",
+    "path": "Endocrinology & Metabolism / General"
+  },
+  {
+    "id": 189,
+    "name": "Diabetes Mellitus Care & Education",
+    "parent": "General",
+    "path": "General / Diabetes Mellitus Care & Education"
+  },
+  {
+    "id": 190,
+    "name": "Thyroid Disorders",
+    "parent": "General",
+    "path": "General / Thyroid Disorders"
+  },
+  {
+    "id": 191,
+    "name": "Pituitary & Hypothalamic Disorders",
+    "parent": "General",
+    "path": "General / Pituitary & Hypothalamic Disorders"
+  },
+  {
+    "id": 192,
+    "name": "Subspecialties",
+    "parent": "Endocrinology & Metabolism",
+    "path": "Endocrinology & Metabolism / Subspecialties"
+  },
+  {
+    "id": 193,
+    "name": "Adrenal Disease",
+    "parent": "Subspecialties",
+    "path": "Subspecialties / Adrenal Disease"
+  },
+  {
+    "id": 194,
+    "name": "Metabolic Bone Disease (osteoporosis)",
+    "parent": "Subspecialties",
+    "path": "Subspecialties / Metabolic Bone Disease (osteoporosis)"
+  },
+  {
+    "id": 195,
+    "name": "Reproductive Endocrinology (overlap with OB/GYN)",
+    "parent": "Subspecialties",
+    "path": "Subspecialties / Reproductive Endocrinology (overlap with OB/GYN)"
+  },
+  {
+    "id": 196,
+    "name": "Lipid & Metabolic Syndrome",
+    "parent": "Subspecialties",
+    "path": "Subspecialties / Lipid & Metabolic Syndrome"
+  },
+  {
+    "id": 197,
+    "name": "Infectious Diseases & Microbiology",
+    "parent": "Human Medicine",
+    "path": "Human Medicine / Infectious Diseases & Microbiology"
+  },
+  {
+    "id": 198,
+    "name": "Clinical",
+    "parent": "Infectious Diseases & Microbiology",
+    "path": "Infectious Diseases & Microbiology / Clinical"
+  },
+  {
+    "id": 199,
+    "name": "Hospital-Acquired Infections & Stewardship",
+    "parent": "Clinical",
+    "path": "Clinical / Hospital-Acquired Infections & Stewardship"
+  },
+  {
+    "id": 200,
+    "name": "Tropical & Travel Medicine",
+    "parent": "Clinical",
+    "path": "Clinical / Tropical & Travel Medicine"
+  },
+  {
+    "id": 201,
+    "name": "HIV Medicine",
+    "parent": "Clinical",
+    "path": "Clinical / HIV Medicine"
+  },
+  {
+    "id": 202,
+    "name": "Lab/Research",
+    "parent": "Infectious Diseases & Microbiology",
+    "path": "Infectious Diseases & Microbiology / Lab/Research"
+  },
+  {
+    "id": 203,
+    "name": "Medical Microbiology",
+    "parent": "Lab/Research",
+    "path": "Lab/Research / Medical Microbiology"
+  },
+  {
+    "id": 204,
+    "name": "Virology & Viral Diagnostics",
+    "parent": "Lab/Research",
+    "path": "Lab/Research / Virology & Viral Diagnostics"
+  },
+  {
+    "id": 205,
+    "name": "Antimicrobial Resistance Research",
+    "parent": "Lab/Research",
+    "path": "Lab/Research / Antimicrobial Resistance Research"
+  },
+  {
+    "id": 206,
+    "name": "Dermatology",
+    "parent": "Human Medicine",
+    "path": "Human Medicine / Dermatology"
+  },
+  {
+    "id": 207,
+    "name": "Clinical",
+    "parent": "Dermatology",
+    "path": "Dermatology / Clinical"
+  },
+  {
+    "id": 208,
+    "name": "Medical Dermatology (inflammatory dermatoses)",
+    "parent": "Clinical",
+    "path": "Clinical / Medical Dermatology (inflammatory dermatoses)"
+  },
+  {
+    "id": 209,
+    "name": "Surgical Dermatology",
+    "parent": "Clinical",
+    "path": "Clinical / Surgical Dermatology"
+  },
+  {
+    "id": 210,
+    "name": "Pediatric Dermatology",
+    "parent": "Clinical",
+    "path": "Clinical / Pediatric Dermatology"
+  },
+  {
+    "id": 211,
+    "name": "Dermatologic Oncology",
+    "parent": "Clinical",
+    "path": "Clinical / Dermatologic Oncology"
+  },
+  {
+    "id": 212,
+    "name": "Procedures & Subspecialties",
+    "parent": "Dermatology",
+    "path": "Dermatology / Procedures & Subspecialties"
+  },
+  {
+    "id": 213,
+    "name": "Dermatopathology",
+    "parent": "Procedures & Subspecialties",
+    "path": "Procedures & Subspecialties / Dermatopathology"
+  },
+  {
+    "id": 214,
+    "name": "Cosmetic Dermatology (lasers, fillers)",
+    "parent": "Procedures & Subspecialties",
+    "path": "Procedures & Subspecialties / Cosmetic Dermatology (lasers, fillers)"
+  },
+  {
+    "id": 215,
+    "name": "Phototherapy",
+    "parent": "Procedures & Subspecialties",
+    "path": "Procedures & Subspecialties / Phototherapy"
+  },
+  {
+    "id": 216,
+    "name": "Veterinary Medicine",
+    "parent": null,
+    "path": "Veterinary Medicine"
+  },
+  {
+    "id": 217,
+    "name": "Small Animal",
+    "parent": "Veterinary Medicine",
+    "path": "Veterinary Medicine / Small Animal"
+  },
+  {
+    "id": 218,
+    "name": "Internal Medicine",
+    "parent": "Small Animal",
+    "path": "Small Animal / Internal Medicine"
+  },
+  {
+    "id": 219,
+    "name": "Canine/Feline Cardiology",
+    "parent": "Internal Medicine",
+    "path": "Internal Medicine / Canine/Feline Cardiology"
+  },
+  {
+    "id": 220,
+    "name": "Small Animal Endocrinology (diabetes, thyroid)",
+    "parent": "Internal Medicine",
+    "path": "Internal Medicine / Small Animal Endocrinology (diabetes, thyroid)"
+  },
+  {
+    "id": 221,
+    "name": "Small Animal Infectious Diseases",
+    "parent": "Internal Medicine",
+    "path": "Internal Medicine / Small Animal Infectious Diseases"
+  },
+  {
+    "id": 222,
+    "name": "Small Animal Gastroenterology",
+    "parent": "Internal Medicine",
+    "path": "Internal Medicine / Small Animal Gastroenterology"
+  },
+  {
+    "id": 223,
+    "name": "Surgery",
+    "parent": "Small Animal",
+    "path": "Small Animal / Surgery"
+  },
+  {
+    "id": 224,
+    "name": "Small Animal Orthopedic Surgery",
+    "parent": "Surgery",
+    "path": "Surgery / Small Animal Orthopedic Surgery"
+  },
+  {
+    "id": 225,
+    "name": "Soft Tissue Surgery",
+    "parent": "Surgery",
+    "path": "Surgery / Soft Tissue Surgery"
+  },
+  {
+    "id": 226,
+    "name": "Minimally Invasive (laparoscopic) Surgery",
+    "parent": "Surgery",
+    "path": "Surgery / Minimally Invasive (laparoscopic) Surgery"
+  },
+  {
+    "id": 227,
+    "name": "Surgical Oncology (companion animals)",
+    "parent": "Surgery",
+    "path": "Surgery / Surgical Oncology (companion animals)"
+  },
+  {
+    "id": 228,
+    "name": "Subspecialties",
+    "parent": "Small Animal",
+    "path": "Small Animal / Subspecialties"
+  },
+  {
+    "id": 229,
+    "name": "Veterinary Oncology (companion animals)",
+    "parent": "Subspecialties",
+    "path": "Subspecialties / Veterinary Oncology (companion animals)"
+  },
+  {
+    "id": 230,
+    "name": "Veterinary Neurology (dogs/cats)",
+    "parent": "Subspecialties",
+    "path": "Subspecialties / Veterinary Neurology (dogs/cats)"
+  },
+  {
+    "id": 231,
+    "name": "Veterinary Dermatology",
+    "parent": "Subspecialties",
+    "path": "Subspecialties / Veterinary Dermatology"
+  },
+  {
+    "id": 232,
+    "name": "Veterinary Ophthalmology",
+    "parent": "Subspecialties",
+    "path": "Subspecialties / Veterinary Ophthalmology"
+  },
+  {
+    "id": 233,
+    "name": "Equine",
+    "parent": "Veterinary Medicine",
+    "path": "Veterinary Medicine / Equine"
+  },
+  {
+    "id": 234,
+    "name": "Medicine",
+    "parent": "Equine",
+    "path": "Equine / Medicine"
+  },
+  {
+    "id": 235,
+    "name": "Equine Internal Medicine",
+    "parent": "Medicine",
+    "path": "Medicine / Equine Internal Medicine"
+  },
+  {
+    "id": 236,
+    "name": "Equine Reproductive Medicine (theriogenology)",
+    "parent": "Medicine",
+    "path": "Medicine / Equine Reproductive Medicine (theriogenology)"
+  },
+  {
+    "id": 237,
+    "name": "Equine Sports Medicine & Rehabilitation",
+    "parent": "Medicine",
+    "path": "Medicine / Equine Sports Medicine & Rehabilitation"
+  },
+  {
+    "id": 238,
+    "name": "Surgery",
+    "parent": "Equine",
+    "path": "Equine / Surgery"
+  },
+  {
+    "id": 239,
+    "name": "Equine Orthopedics",
+    "parent": "Surgery",
+    "path": "Surgery / Equine Orthopedics"
+  },
+  {
+    "id": 240,
+    "name": "Emergency & Field Surgery",
+    "parent": "Surgery",
+    "path": "Surgery / Emergency & Field Surgery"
+  },
+  {
+    "id": 241,
+    "name": "Laparoscopic Equine Surgery",
+    "parent": "Surgery",
+    "path": "Surgery / Laparoscopic Equine Surgery"
+  },
+  {
+    "id": 242,
+    "name": "Performance",
+    "parent": "Equine",
+    "path": "Equine / Performance"
+  },
+  {
+    "id": 243,
+    "name": "Lameness Diagnostics",
+    "parent": "Performance",
+    "path": "Performance / Lameness Diagnostics"
+  },
+  {
+    "id": 244,
+    "name": "Pre-purchase Exams & Risk Assessment",
+    "parent": "Performance",
+    "path": "Performance / Pre-purchase Exams & Risk Assessment"
+  },
+  {
+    "id": 245,
+    "name": "Food & Production Animal",
+    "parent": "Veterinary Medicine",
+    "path": "Veterinary Medicine / Food & Production Animal"
+  },
+  {
+    "id": 246,
+    "name": "Herd Health",
+    "parent": "Food & Production Animal",
+    "path": "Food & Production Animal / Herd Health"
+  },
+  {
+    "id": 247,
+    "name": "Preventive Herd Health Programs",
+    "parent": "Herd Health",
+    "path": "Herd Health / Preventive Herd Health Programs"
+  },
+  {
+    "id": 248,
+    "name": "Epidemiology & Biosecurity",
+    "parent": "Herd Health",
+    "path": "Herd Health / Epidemiology & Biosecurity"
+  },
+  {
+    "id": 249,
+    "name": "Nutrition for Production Animals",
+    "parent": "Herd Health",
+    "path": "Herd Health / Nutrition for Production Animals"
+  },
+  {
+    "id": 250,
+    "name": "Reproduction",
+    "parent": "Food & Production Animal",
+    "path": "Food & Production Animal / Reproduction"
+  },
+  {
+    "id": 251,
+    "name": "Bovine Reproduction & AI",
+    "parent": "Reproduction",
+    "path": "Reproduction / Bovine Reproduction & AI"
+  },
+  {
+    "id": 252,
+    "name": "Swine Reproductive Management",
+    "parent": "Reproduction",
+    "path": "Reproduction / Swine Reproductive Management"
+  },
+  {
+    "id": 253,
+    "name": "Sheep/Goat Reproductive Health",
+    "parent": "Reproduction",
+    "path": "Reproduction / Sheep/Goat Reproductive Health"
+  },
+  {
+    "id": 254,
+    "name": "Surgery & Field Procedures",
+    "parent": "Food & Production Animal",
+    "path": "Food & Production Animal / Surgery & Field Procedures"
+  },
+  {
+    "id": 255,
+    "name": "Field Castration & Routine Procedures",
+    "parent": "Surgery & Field Procedures",
+    "path": "Surgery & Field Procedures / Field Castration & Routine Procedures"
+  },
+  {
+    "id": 256,
+    "name": "Emergency Obstetrics (dystocia management)",
+    "parent": "Surgery & Field Procedures",
+    "path": "Surgery & Field Procedures / Emergency Obstetrics (dystocia management)"
+  },
+  {
+    "id": 257,
+    "name": "Lameness & Hoof Care",
+    "parent": "Surgery & Field Procedures",
+    "path": "Surgery & Field Procedures / Lameness & Hoof Care"
+  },
+  {
+    "id": 258,
+    "name": "Laboratory & Research Animal Medicine",
+    "parent": "Veterinary Medicine",
+    "path": "Veterinary Medicine / Laboratory & Research Animal Medicine"
+  },
+  {
+    "id": 259,
+    "name": "Lab Animal Care",
+    "parent": "Laboratory & Research Animal Medicine",
+    "path": "Laboratory & Research Animal Medicine / Lab Animal Care"
+  },
+  {
+    "id": 260,
+    "name": "Rodent Medicine (mice, rats)",
+    "parent": "Lab Animal Care",
+    "path": "Lab Animal Care / Rodent Medicine (mice, rats)"
+  },
+  {
+    "id": 261,
+    "name": "Non-human Primate Medicine",
+    "parent": "Lab Animal Care",
+    "path": "Lab Animal Care / Non-human Primate Medicine"
+  },
+  {
+    "id": 262,
+    "name": "Regulatory Compliance & Facility Management",
+    "parent": "Lab Animal Care",
+    "path": "Lab Animal Care / Regulatory Compliance & Facility Management"
+  },
+  {
+    "id": 263,
+    "name": "Research Support",
+    "parent": "Laboratory & Research Animal Medicine",
+    "path": "Laboratory & Research Animal Medicine / Research Support"
+  },
+  {
+    "id": 264,
+    "name": "Surgical Models & Techniques",
+    "parent": "Research Support",
+    "path": "Research Support / Surgical Models & Techniques"
+  },
+  {
+    "id": 265,
+    "name": "Preclinical Study Design",
+    "parent": "Research Support",
+    "path": "Research Support / Preclinical Study Design"
+  },
+  {
+    "id": 266,
+    "name": "Animal Welfare & Ethics",
+    "parent": "Research Support",
+    "path": "Research Support / Animal Welfare & Ethics"
+  },
+  {
+    "id": 267,
+    "name": "Wildlife & Zoo Medicine",
+    "parent": "Veterinary Medicine",
+    "path": "Veterinary Medicine / Wildlife & Zoo Medicine"
+  },
+  {
+    "id": 268,
+    "name": "Clinical",
+    "parent": "Wildlife & Zoo Medicine",
+    "path": "Wildlife & Zoo Medicine / Clinical"
+  },
+  {
+    "id": 269,
+    "name": "Wildlife Rehabilitation",
+    "parent": "Clinical",
+    "path": "Clinical / Wildlife Rehabilitation"
+  },
+  {
+    "id": 270,
+    "name": "Zoo Animal Medicine (multi-species)",
+    "parent": "Clinical",
+    "path": "Clinical / Zoo Animal Medicine (multi-species)"
+  },
+  {
+    "id": 271,
+    "name": "Exotic Pet Medicine",
+    "parent": "Clinical",
+    "path": "Clinical / Exotic Pet Medicine"
+  },
+  {
+    "id": 272,
+    "name": "Conservation",
+    "parent": "Wildlife & Zoo Medicine",
+    "path": "Wildlife & Zoo Medicine / Conservation"
+  },
+  {
+    "id": 273,
+    "name": "Disease Ecology",
+    "parent": "Conservation",
+    "path": "Conservation / Disease Ecology"
+  },
+  {
+    "id": 274,
+    "name": "Population Health & Conservation Programs",
+    "parent": "Conservation",
+    "path": "Conservation / Population Health & Conservation Programs"
+  }
+]
